@@ -1,0 +1,36 @@
+.post-actions-container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 10px 16px 6px 16px;
+}
+
+.post-action-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.post-action-button:hover {
+  transform: scale(1.18);
+}
+
+.post-action-button:active {
+  transform: scale(0.92);
+}
+
+.post-action-icon {
+  font-size: 24px;
+  color: #262626;
+  transition: color 0.15s ease;
+}
+
+.post-action-button:hover .post-action-icon {
+  color: #737373;
+}

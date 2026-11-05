@@ -1,0 +1,24 @@
+.comments-list {
+  list-style: none;
+  padding: 0;
+  margin: 6px 0 10px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.comment-item {
+  font-size: 13.5px;
+  line-height: 1.45;
+  color: #262626;
+}
+
+.comment-username {
+  font-weight: 600;
+  color: #262626;
+  margin-right: 5px;
+}
+
+.comment-text {
+  color: #374151;
+}
